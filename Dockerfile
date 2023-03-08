@@ -5,7 +5,6 @@ FROM ubuntu:bionic
 ENV USER="jrsm20"
 ENV NAME="James MacAleese"
 ENV EMAIL="jamesmacaleese@gmail.com"
-
 # Create User
 RUN adduser ${USER}
 RUN adduser ${USER} sudo
