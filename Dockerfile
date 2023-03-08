@@ -2,9 +2,9 @@
 FROM ubuntu:bionic
 
 # User Details
-ENV USER="wlq20"
-ENV NAME="Will Queree"
-ENV EMAIL="wqueree@gmail.com"
+ENV USER="jrsm20"
+ENV NAME="James MacAleese"
+ENV EMAIL="jamesmacaleese@gmail.com"
 
 # Create User
 RUN adduser ${USER}
