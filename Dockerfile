@@ -29,6 +29,3 @@ RUN cd InterFuser
 RUN chmod +x setup_carla.sh
 RUN ./setup_carla.sh
 RUN easy_install carla/PythonAPI/carla/dist/carla-0.9.10-py3.7-linux-x86_64.egg
-
-RUN cd carla
-RUN CUDA_VISIBLE_DEVICES=0 ./CarlaUE4.sh --world-port=20000 -opengl
